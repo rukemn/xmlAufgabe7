@@ -1,0 +1,30 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+
+nav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #BBBBBB;
+	padding: 3% 8% 3% 8%;
+}
+
+footer{
+	text-align: center;
+	background-color: #BBBBBB;
+	padding: 3% 0% 3% 0%;
+}
+
+.responsive-img{
+	width: 100%;
+	height: auto;
+}
